@@ -1,0 +1,5 @@
+Hi Eric,
+
+Find attached the data for project 12. You will get a .csv file after unzipping it.
+
+The first column contains the tweets, the next 7 columns are log normalised features of each tweet such as the number of words, the next 9 columns are other raw metadata that automatically came from the Twitter streaming API. The last column is the binary labels which denote whether or not the tweet is contaminated (low quality) or regular (good quality) based on expert judgement. I strongly recommend you apply feature selection and select the optimal feature combination for your final model. Feel free to try entirely different feature extraction approach such as the bag of words or n-gram and compare the classify accuracy and other performance measures. Also get in touch if you need further guidance.
